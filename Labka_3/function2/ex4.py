@@ -9,6 +9,6 @@ def filter_prime(numbers):
         return True
     return [n for n in numbers if is_prime(n)]
 
-# Использование
+
 numbers = list(map(int, input("Введите числа через пробел: ").split()))
 print(f"Простые числа: {filter_prime(numbers)}")

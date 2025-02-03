@@ -5,7 +5,7 @@ def solve(numheads, numlegs):
             return chickens, rabbits
     return None
 
-# Использование
+
 heads = int(input("Введите количество голов: "))
 legs = int(input("Введите количество ног: "))
 result = solve(heads, legs)

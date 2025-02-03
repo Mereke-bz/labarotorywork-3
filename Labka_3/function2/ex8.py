@@ -7,6 +7,6 @@ def spy_game(nums):
             return True
     return False
 
-# Использование
+
 nums = list(map(int, input("Введите числа через пробел: ").split()))
 print("Список содержит 007 в порядке." if spy_game(nums) else "Список не содержит 007 в порядке.")

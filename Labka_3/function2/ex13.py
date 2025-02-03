@@ -16,5 +16,5 @@ def guess_the_number():
             print(f"Поздравляю, {name}! Ты угадал число за {attempts} попыток!")
             break
 
-# Использование
+
 guess_the_number()

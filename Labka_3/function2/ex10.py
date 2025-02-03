@@ -5,6 +5,6 @@ def unique_elements(lst):
             unique_lst.append(elem)
     return unique_lst
 
-# Использование
+
 lst = list(map(int, input("Введите числа через пробел: ").split()))
 print(f"Уникальные элементы: {unique_elements(lst)}")
